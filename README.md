@@ -21,7 +21,7 @@ Adjustments
 -----------
 
 You can find some original files from the sourceforge package. Some files are adjusted to my needs:
-- support for MariaDB 10.4 and above
+- support for MariaDB 10.4.6 and above
 
 
 MariaDB
