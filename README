@@ -80,12 +80,6 @@ exists.
 You can just copy the supplied automariadbbackup.conf as many times as you want
 and use for separate configurations, i.e. for example different mariadb servers.
 
-!!! NEW !!!
-----------
-As of version 3.0 we have added differential backups using the program diff. In an
-effort to make the reconstruction of the full archives more user friendly, we
-added new functionality to the script. Therefore, while preserving the old syntax,
-we created options for the script, so that the new functions can be accessed.
 
 Usage automariadbbackup options -cblh
 -c CONFIG_FILE  Specify optional config file.
@@ -96,11 +90,11 @@ Usage automariadbbackup options -cblh
 If you use these options, you have to specify everything according to them and can't
 mix the old syntax with the new one. Example:
 
-before (still valid!):
+valid:
 
   >> automariadbbackup "myconfig.conf"
 
-now:
+also valid now:
 
   >> automariadbbackup -c "myconfig.conf" -b
 
