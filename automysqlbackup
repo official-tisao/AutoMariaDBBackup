@@ -112,7 +112,7 @@ load_default_config() {
   CONFIG_mail_use_uuencoded_attachments='no'
   CONFIG_mail_address='root'
   CONFIG_encrypt='no'
-  CONFIG_encrypt_password='password0123'
+  CONFIG_encrypt_password='randpass0123'
 }
 
 mysql_commands() {
