@@ -1187,7 +1187,7 @@ cleanup_latest ()  {
 check_dependencies () {
     echo
     echo "# Testing for installed programs"
-    dependencies=( 'mariadb' 'mariadbdump' )
+    dependencies=( 'mariadb' 'mariadb-dump' )
 
 	if [[ "x$CONFIG_multicore" = 'xyes' ]]; then
 
